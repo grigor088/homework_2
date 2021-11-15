@@ -1,0 +1,91 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1636549528438' stop='1636549533150'>
+    <name>The Cypress io  Website: </name>
+    <title>The Cypress io  Website: </title>
+    <test-cases>
+        <test-case start='1636549528439' status='passed' stop='1636549528440'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-95.0.4638.69'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1636549528441' status='passed' stop='1636549533119'>
+            <name>Given I should navigate to features page</name>
+            <title>Given I should navigate to features page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-95.0.4638.69'/>
+            </parameters>
+            <steps>
+                <step start='1636549528442' status='passed' stop='1636549528563'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='02fdbf71-780f-44f1-b8db-ff3e2dc01219-attachment.json' type='application/json' size='46'/>
+                        <attachment title='Response' source='b3a8c658-17fa-4b04-b632-e952b7883857-attachment.json' type='application/json' size='58'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1636549533119' status='passed' stop='1636549533149'>
+            <name>And Text of element of features should be A test runner built for humans.</name>
+            <title>And Text of element of features should be A test runner built for humans.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-95.0.4638.69'/>
+            </parameters>
+            <steps>
+                <step start='1636549533121' status='passed' stop='1636549533132'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='dc1f0a73-d116-47f3-988e-0a4787d8873a-attachment.json' type='application/json' size='66'/>
+                        <attachment title='Response' source='4f8d9020-533c-4ca1-833d-db0c79500eab-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1636549533136' status='passed' stop='1636549533147'>
+                    <name>GET /session/:sessionId/element/549caf96-7114-46f5-bb16-df1437952c92/text</name>
+                    <title>GET /session/:sessionId/element/549caf96-7114-46f5-bb16-df1437952c92/text</title>
+                    <attachments>
+                        <attachment title='Response' source='a7a38929-5969-42f8-8580-a3cbb99aaf1f-attachment.json' type='application/json' size='33'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1636549533149' status='passed' stop='1636549533150'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-95.0.4638.69'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

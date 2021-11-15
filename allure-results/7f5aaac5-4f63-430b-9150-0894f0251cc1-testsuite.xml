@@ -1,0 +1,108 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1636544794760' stop='1636544795568'>
+    <name>The Cypress io  Website: </name>
+    <title>The Cypress io  Website: </title>
+    <test-cases>
+        <test-case start='1636544794761' status='passed' stop='1636544794764'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-95.0.4638.69'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1636544794764' status='broken' stop='1636544795563'>
+            <name>Given I should navigate to features page</name>
+            <title>Given I should navigate to features page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-95.0.4638.69'/>
+            </parameters>
+            <steps>
+                <step start='1636544794768' status='passed' stop='1636544794938'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='3af608bd-6641-47ae-af70-8057e3fcdc7a-attachment.json' type='application/json' size='46'/>
+                        <attachment title='Response' source='c76d8fa5-97cf-4cd2-bbea-e9fb083ae4f8-attachment.json' type='application/json' size='58'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>unknown error: net::ERR_INTERNET_DISCONNECTED</message>
+                <stack-trace>unknown error: net::ERR_INTERNET_DISCONNECTED
+                  (Session info: chrome=95.0.4638.69)
+                Backtrace:
+                	Ordinal0 [0x00E73AB3+2505395]
+                	Ordinal0 [0x00E0AE41+2076225]
+                	Ordinal0 [0x00D12498+1057944]
+                	Ordinal0 [0x00D0F0A1+1044641]
+                	Ordinal0 [0x00D052C2+1004226]
+                	Ordinal0 [0x00D05EC2+1007298]
+                	Ordinal0 [0x00D0550A+1004810]
+                	Ordinal0 [0x00D04BC8+1002440]
+                	Ordinal0 [0x00D03D5D+998749]
+                	Ordinal0 [0x00D04016+999446]
+                	Ordinal0 [0x00D13A6A+1063530]
+                	Ordinal0 [0x00D656ED+1398509]
+                	Ordinal0 [0x00D559F3+1333747]
+                	Ordinal0 [0x00D65168+1397096]
+                	Ordinal0 [0x00D558BB+1333435]
+                	Ordinal0 [0x00D323E4+1188836]
+                	Ordinal0 [0x00D3323F+1192511]
+                	GetHandleVerifier [0x00FFCB36+1554566]
+                	GetHandleVerifier [0x010A4A0C+2242396]
+                	GetHandleVerifier [0x00F00E0B+523099]
+                	GetHandleVerifier [0x00EFFEB0+519168]
+                	Ordinal0 [0x00E102FD+2097917]
+                	Ordinal0 [0x00E14388+2114440]
+                	Ordinal0 [0x00E144C2+2114754]
+                	Ordinal0 [0x00E1E041+2154561]
+                	BaseThreadInitThunk [0x764CFA29+25]
+                	RtlGetAppContainerNamedObjectPath [0x777F7A9E+286]
+                	RtlGetAppContainerNamedObjectPath [0x777F7A6E+238]
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1636544795564' status='pending' stop='1636544795564'>
+            <name>And I should verify features page A test runner built for humans.</name>
+            <title>And I should verify features page A test runner built for humans.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-95.0.4638.69'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1636544795565' status='passed' stop='1636544795566'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-95.0.4638.69'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

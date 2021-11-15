@@ -1,0 +1,107 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1636641052419' stop='1636641053945'>
+    <name>The Cypress io  Website: </name>
+    <title>The Cypress io  Website: </title>
+    <test-cases>
+        <test-case start='1636641052419' status='passed' stop='1636641052419'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-95.0.4638.69'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1636641052419' status='passed' stop='1636641053942'>
+            <name>Given I should navigate to pricing page</name>
+            <title>Given I should navigate to pricing page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-95.0.4638.69'/>
+            </parameters>
+            <steps>
+                <step start='1636641052420' status='passed' stop='1636641053941'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='ba8950c6-5625-41d4-86b8-7601f8d12c05-attachment.json' type='application/json' size='45'/>
+                    </attachments>
+                    <steps>
+                        <step start='1636641052427' status='passed' stop='1636641052432'>
+                            <name>POST /session/:sessionId/element</name>
+                            <title>POST /session/:sessionId/element</title>
+                            <attachments>
+                                <attachment title='Request' source='3aa22366-52fb-4f96-a4d8-da1b504d0c75-attachment.json' type='application/json' size='66'/>
+                                <attachment title='Response' source='3b37a996-5718-47a7-9fb9-ee724dc4972f-attachment.json' type='application/json' size='83'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1636641052434' status='passed' stop='1636641052436'>
+                            <name>GET /session/:sessionId/element/23ff473f-fbe4-41a1-be9e-ad9f84e351d2/text</name>
+                            <title>GET /session/:sessionId/element/23ff473f-fbe4-41a1-be9e-ad9f84e351d2/text</title>
+                            <attachments>
+                                <attachment title='Response' source='8baf6a67-f0ab-4a5a-abcd-08aab4d8e922-attachment.json' type='application/json' size='83'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1636641052438' status='passed' stop='1636641052445'>
+                            <name>GET /session/:sessionId/element/5897e27a-1b08-439d-9d95-aa3a758e3b5c/text</name>
+                            <title>GET /session/:sessionId/element/5897e27a-1b08-439d-9d95-aa3a758e3b5c/text</title>
+                            <attachments>
+                                <attachment title='Response' source='5405f7b9-4910-479a-a32a-59ee18215d00-attachment.json' type='application/json' size='50'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1636641053942' status='passed' stop='1636641053944'>
+            <name>And Text of pageHeader of pricing should be A test runner built for humans.</name>
+            <title>And Text of pageHeader of pricing should be A test runner built for humans.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-95.0.4638.69'/>
+            </parameters>
+            <steps>
+                <step start='1636641053942' status='undefined'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='8a11f51b-eb1a-4cb8-9e19-754f4c6ce474-attachment.json' type='application/json' size='66'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1636641053945' status='passed' stop='1636641053945'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-95.0.4638.69'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

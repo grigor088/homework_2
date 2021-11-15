@@ -1,0 +1,100 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1636544780769' stop='1636544786049'>
+    <name>The Cypress io  Website: </name>
+    <title>The Cypress io  Website: </title>
+    <test-cases>
+        <test-case start='1636544780769' status='passed' stop='1636544780770'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-95.0.4638.69'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1636544780770' status='broken' stop='1636544786047'>
+            <name>Given I should navigate to dashboard page</name>
+            <title>Given I should navigate to dashboard page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-95.0.4638.69'/>
+            </parameters>
+            <steps>
+                <step start='1636544780772' status='passed' stop='1636544786010'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='69e2a78b-19bb-4b97-b28c-f7c808b7b0b4-attachment.json' type='application/json' size='47'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>no such window: target window already closed</message>
+                <stack-trace>no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=95.0.4638.69)
+                Backtrace:
+                	Ordinal0 [0x00E73AB3+2505395]
+                	Ordinal0 [0x00E0AE41+2076225]
+                	Ordinal0 [0x00D12498+1057944]
+                	Ordinal0 [0x00CFBE96+966294]
+                	Ordinal0 [0x00D57F19+1343257]
+                	Ordinal0 [0x00D648C2+1394882]
+                	Ordinal0 [0x00D558BB+1333435]
+                	Ordinal0 [0x00D323E4+1188836]
+                	Ordinal0 [0x00D3323F+1192511]
+                	GetHandleVerifier [0x00FFCB36+1554566]
+                	GetHandleVerifier [0x010A4A0C+2242396]
+                	GetHandleVerifier [0x00F00E0B+523099]
+                	GetHandleVerifier [0x00EFFEB0+519168]
+                	Ordinal0 [0x00E102FD+2097917]
+                	Ordinal0 [0x00E14388+2114440]
+                	Ordinal0 [0x00E144C2+2114754]
+                	Ordinal0 [0x00E1E041+2154561]
+                	BaseThreadInitThunk [0x764CFA29+25]
+                	RtlGetAppContainerNamedObjectPath [0x777F7A9E+286]
+                	RtlGetAppContainerNamedObjectPath [0x777F7A6E+238]
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1636544786047' status='pending' stop='1636544786048'>
+            <name>And I should verify dashboard page Test and debug faster with the Cypress Dashboard</name>
+            <title>And I should verify dashboard page Test and debug faster with the Cypress Dashboard</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-95.0.4638.69'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1636544786048' status='passed' stop='1636544786049'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-95.0.4638.69'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

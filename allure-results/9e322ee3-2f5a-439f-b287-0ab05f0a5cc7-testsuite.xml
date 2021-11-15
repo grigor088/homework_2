@@ -1,0 +1,90 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1636543280946' stop='1636543295603'>
+    <name>The Cypress io  Website: </name>
+    <title>The Cypress io  Website: </title>
+    <test-cases>
+        <test-case start='1636543280946' status='passed' stop='1636543280948'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-95.0.4638.69'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1636543280948' status='passed' stop='1636543285587'>
+            <name>Given I should navigate to features page</name>
+            <title>Given I should navigate to features page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-95.0.4638.69'/>
+            </parameters>
+            <steps>
+                <step start='1636543280950' status='passed' stop='1636543281084'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='0d3df193-fa9e-46ec-a7be-31787f5c2975-attachment.json' type='application/json' size='46'/>
+                        <attachment title='Response' source='d16097b7-5c77-49e5-8334-e16913fb506b-attachment.json' type='application/json' size='58'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1636543285587' status='failed' stop='1636543295601'>
+            <name>And I should verify features page A test runner built for humans.</name>
+            <title>And I should verify features page A test runner built for humans.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-95.0.4638.69'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Error: Expect  to have text containing</message>
+                <stack-trace>Error: Expect  to have text containing
+                
+                Expected: "A test runner built for humans."
+                Received: undefined
+                    at World.&lt;anonymous> (C:\Users\Grigor_Harutyunyan\WebstormProjects\homework_2\features\step-definitions\steps.js:18:38)
+                    at World.executeAsync (C:\Users\Grigor_Harutyunyan\WebstormProjects\homework_2\node_modules\@wdio\utils\build\shim.js:325:27)
+                    at World.testFrameworkFnWrapper (C:\Users\Grigor_Harutyunyan\WebstormProjects\homework_2\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:45:32)
+                    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+                    at async Object.wrapPromiseWithTimeout (C:\Users\Grigor_Harutyunyan\WebstormProjects\homework_2\node_modules\@cucumber\cucumber\lib\time.js:63:12)
+                    at async Object.run (C:\Users\Grigor_Harutyunyan\WebstormProjects\homework_2\node_modules\@cucumber\cucumber\lib\user_code_runner.js:64:22)
+                    at async Object.run (C:\Users\Grigor_Harutyunyan\WebstormProjects\homework_2\node_modules\@cucumber\cucumber\lib\runtime\step_runner.js:48:26)
+                    at async TestCaseRunner.invokeStep (C:\Users\Grigor_Harutyunyan\WebstormProjects\homework_2\node_modules\@cucumber\cucumber\lib\runtime\test_case_runner.js:89:16)
+                    at async TestCaseRunner.runStep (C:\Users\Grigor_Harutyunyan\WebstormProjects\homework_2\node_modules\@cucumber\cucumber\lib\runtime\test_case_runner.js:229:26)
+                    at async C:\Users\Grigor_Harutyunyan\WebstormProjects\homework_2\node_modules\@cucumber\cucumber\lib\runtime\test_case_runner.js:155:48</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1636543295602' status='passed' stop='1636543295602'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-95.0.4638.69'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

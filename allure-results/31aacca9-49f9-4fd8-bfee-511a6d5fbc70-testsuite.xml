@@ -1,0 +1,111 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1636632844400' stop='1636632848374'>
+    <name>The Cypress io  Website: </name>
+    <title>The Cypress io  Website: </title>
+    <test-cases>
+        <test-case start='1636632844401' status='passed' stop='1636632844402'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-95.0.4638.69'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1636632844402' status='passed' stop='1636632848351'>
+            <name>Given I should navigate to features page</name>
+            <title>Given I should navigate to features page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-95.0.4638.69'/>
+            </parameters>
+            <steps>
+                <step start='1636632844403' status='passed' stop='1636632844533'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='7b3559c6-1960-4559-96a6-8f44b9bde831-attachment.json' type='application/json' size='46'/>
+                        <attachment title='Response' source='35ef9cca-3213-48aa-88aa-0ff6d5f319d3-attachment.json' type='application/json' size='58'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1636632848351' status='broken' stop='1636632848373'>
+            <name>And Text of pageHeader of features should be A test runner built for humans.</name>
+            <title>And Text of pageHeader of features should be A test runner built for humans.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-95.0.4638.69'/>
+            </parameters>
+            <steps>
+                <step start='1636632848353' status='broken' stop='1636632848373'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='0be8a29a-bb5a-4ef0-ae19-a3f71b159267-attachment.json' type='application/json' size='66'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>no such window: target window already closed</message>
+                <stack-trace>no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=95.0.4638.69)
+                Backtrace:
+                	Ordinal0 [0x00273AB3+2505395]
+                	Ordinal0 [0x0020AE41+2076225]
+                	Ordinal0 [0x00112498+1057944]
+                	Ordinal0 [0x000FBE96+966294]
+                	Ordinal0 [0x00157F19+1343257]
+                	Ordinal0 [0x001648C2+1394882]
+                	Ordinal0 [0x001558BB+1333435]
+                	Ordinal0 [0x001323E4+1188836]
+                	Ordinal0 [0x0013323F+1192511]
+                	GetHandleVerifier [0x003FCB36+1554566]
+                	GetHandleVerifier [0x004A4A0C+2242396]
+                	GetHandleVerifier [0x00300E0B+523099]
+                	GetHandleVerifier [0x002FFEB0+519168]
+                	Ordinal0 [0x002102FD+2097917]
+                	Ordinal0 [0x00214388+2114440]
+                	Ordinal0 [0x002144C2+2114754]
+                	Ordinal0 [0x0021E041+2154561]
+                	BaseThreadInitThunk [0x764CFA29+25]
+                	RtlGetAppContainerNamedObjectPath [0x777F7A9E+286]
+                	RtlGetAppContainerNamedObjectPath [0x777F7A6E+238]
+                	(No symbol) [0x00000000]
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1636632848373' status='passed' stop='1636632848373'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-95.0.4638.69'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

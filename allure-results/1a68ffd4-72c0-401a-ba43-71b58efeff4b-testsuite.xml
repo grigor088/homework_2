@@ -1,0 +1,98 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1636955845186' stop='1636955848368'>
+    <name>The Cypress io  Website: </name>
+    <title>The Cypress io  Website: </title>
+    <test-cases>
+        <test-case start='1636955845187' status='passed' stop='1636955845188'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-95.0.4638.69'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1636955845188' status='broken' stop='1636955848367'>
+            <name>Then I click in cypress element and check visibility of message</name>
+            <title>Then I click in cypress element and check visibility of message</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-95.0.4638.69'/>
+            </parameters>
+            <steps>
+                <step start='1636955845189' status='passed' stop='1636955845324'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='025e3f9c-9f47-4421-9e70-23f9ca97e52d-attachment.json' type='application/json' size='34'/>
+                        <attachment title='Response' source='a55394da-0e75-49fb-ba25-68a2a8f6d5a8-attachment.json' type='application/json' size='58'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1636955848253' status='passed' stop='1636955848265'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='1700b07b-18fe-4296-9c81-9ccb86d5b174-attachment.json' type='application/json' size='62'/>
+                        <attachment title='Response' source='dc23774a-5619-4148-96b5-3c6253257a20-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1636955848270' status='passed' stop='1636955848334'>
+                    <name>POST /session/:sessionId/element/c2ebc39f-f2f2-4742-a667-f02096bbb1ee/click</name>
+                    <title>POST /session/:sessionId/element/c2ebc39f-f2f2-4742-a667-f02096bbb1ee/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1636955848334' status='passed' stop='1636955848353'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='77f156b7-d447-4ef2-b403-e7e580f467a9-attachment.json' type='application/json' size='57'/>
+                        <attachment title='Response' source='45d0f31c-b33e-411a-afb3-16a41207959d-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1636955848356' status='passed' stop='1636955848365'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='bd360408-1f27-4d77-afa9-78cc1340a448-attachment.json' type='application/json' size='8337'/>
+                        <attachment title='Response' source='2ccaec3a-9ef2-4898-ba78-ae300490a4c4-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>TypeError: element.getText is not a function</message>
+                <stack-trace>TypeError: element.getText is not a function
+                    at World.&lt;anonymous> (C:\Users\Grigor_Harutyunyan\WebstormProjects\homework_2\features\step-definitions\emailVerifying.steps.js:37:32)
+                    at processTicksAndRejections (internal/process/task_queues.js:95:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1636955848367' status='passed' stop='1636955848368'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-95.0.4638.69'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
