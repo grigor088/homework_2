@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="The Cypress io Website" timestamp="2021-11-22T14:39:20" time="46.176" tests="8" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="featureName" value="The Cypress io  Website"/>
+      <property name="capabilities" value="chrome.96_0_4664_45.windows"/>
+      <property name="featureFile" value=".\features\new.feature"/>
+    </properties>
+    <testcase classname="CucumberJUnitReport-chrome.96_0_4664_45.windows.The Cypress io Website" name="" time="24.599">
+      <system-out><![CDATA[
+✅ Given I should navigate to features page✅ And Text of pageHeader of features should be A test runner built for humans.
+]]></system-out>
+    </testcase>
+    <testcase classname="CucumberJUnitReport-chrome.96_0_4664_45.windows.The Cypress io Website" name="" time="3.507">
+      <system-out><![CDATA[
+✅ Given I should navigate to dashboard page✅ And Text of pageHeader of dashboard should be Test and debug faster with the Cypress Dashboard
+]]></system-out>
+    </testcase>
+    <testcase classname="CucumberJUnitReport-chrome.96_0_4664_45.windows.The Cypress io Website" name="" time="1.215">
+      <system-out><![CDATA[
+✅ Given I should navigate to pricing page✅ And Text of pageHeader of pricing should be Cypress Dashboard Pricing
+]]></system-out>
+    </testcase>
+    <testcase classname="CucumberJUnitReport-chrome.96_0_4664_45.windows.The Cypress io Website" name="" time="5.056">
+      <system-out><![CDATA[
+✅ Then I should scroll into email search view✅ Then I input invalid "assss"✅ And I will check Email must be formatted correctly. which depends on error message when i click in subscribe button with invalid email
+]]></system-out>
+    </testcase>
+    <testcase classname="CucumberJUnitReport-chrome.96_0_4664_45.windows.The Cypress io Website" name="" time="5.009">
+      <system-out><![CDATA[
+✅ Then I should scroll into email search view✅ Then I input invalid ""✅ And I will check Please complete this required field. which depends on error message when i click in subscribe button with invalid email
+]]></system-out>
+    </testcase>
+    <testcase classname="CucumberJUnitReport-chrome.96_0_4664_45.windows.The Cypress io Website" name="" time="1.175">
+      <system-out><![CDATA[
+✅ Given I should input valid grigor@email.com✅ Then I should check subscribing Thanks for submitting the form.
+]]></system-out>
+    </testcase>
+    <testcase classname="CucumberJUnitReport-chrome.96_0_4664_45.windows.The Cypress io Website" name="" time="2.163">
+      <system-out><![CDATA[
+✅ Given I should input valid newuser@mail.ru✅ Then I should check subscribing Thanks for submitting the form.
+]]></system-out>
+    </testcase>
+    <testcase classname="CucumberJUnitReport-chrome.96_0_4664_45.windows.The Cypress io Website" name="" time="3.428">
+      <system-out><![CDATA[
+✅ Given I click in cypressButton element✅ Then I will check visibility of cypressElement which contain message Copied to clipboard!
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

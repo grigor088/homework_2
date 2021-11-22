@@ -1,0 +1,88 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1637577584998' stop='1637577588502'>
+    <name>The Cypress io  Website: </name>
+    <title>The Cypress io  Website: </title>
+    <test-cases>
+        <test-case start='1637577584998' status='passed' stop='1637577584999'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.45'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1637577584999' status='passed' stop='1637577588498'>
+            <name>Given I should navigate to dashboard page</name>
+            <title>Given I should navigate to dashboard page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.45'/>
+            </parameters>
+            <steps>
+                <step start='1637577584999' status='passed' stop='1637577585014'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='7aec316d-5322-4ecd-a115-55ce35d915bb-attachment.json' type='application/json' size='47'/>
+                        <attachment title='Response' source='292be52c-3e99-4734-bde5-a04bb0ef754b-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1637577585019' status='passed' stop='1637577588498'>
+                    <name>GET /session/:sessionId/element/e82408cf-efd6-4357-aa8e-3267b984058a/text</name>
+                    <title>GET /session/:sessionId/element/e82408cf-efd6-4357-aa8e-3267b984058a/text</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1637577588498' status='passed' stop='1637577588502'>
+            <name>And Text of pageHeader of dashboard should be Test and debug faster with the Cypress Dashboard</name>
+            <title>And Text of pageHeader of dashboard should be Test and debug faster with the Cypress Dashboard</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.45'/>
+            </parameters>
+            <steps>
+                <step start='1637577588499' status='undefined'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='23b9a983-40f2-4cae-b239-9f65f3f198ee-attachment.json' type='application/json' size='66'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1637577588502' status='passed' stop='1637577588502'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.45'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

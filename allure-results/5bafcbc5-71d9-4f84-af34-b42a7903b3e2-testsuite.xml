@@ -1,0 +1,123 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1637577461060' stop='1637577461065'>
+    <name>Test End to End user: Validate End to End Get Single User</name>
+    <title>Test End to End user: Validate End to End Get Single User</title>
+    <test-cases>
+        <test-case start='1637577461061' status='passed' stop='1637577461062'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.45'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1637577461062' status='broken' stop='1637577461063'>
+            <name>Given I am on the page https://resttesttest.com/</name>
+            <title>Given I am on the page https://resttesttest.com/</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.45'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I am on the page https://resttesttest.com/" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I am on the page https://resttesttest.com/" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(C:\Users\Grigor_Harutyunyan\WebstormProjects\homework_2\features\E2E_User.feature):1:1
+                	at Scenario(Validate End to End Get Single User):3:3
+                	at Step(I am on the page &lt;pageUrl>):4:5
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1637577461063' status='broken' stop='1637577461064'>
+            <name>When I perform /api/user/2 user search</name>
+            <title>When I perform /api/user/2 user search</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.45'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I perform /api/user/2 user search" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I perform /api/user/2 user search" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(C:\Users\Grigor_Harutyunyan\WebstormProjects\homework_2\features\E2E_User.feature):1:1
+                	at Scenario(Validate End to End Get Single User):3:3
+                	at Step(I perform &lt;endPoint> user search):5:5
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1637577461064' status='broken' stop='1637577461064'>
+            <name>And I make GET /api/user/2 api call</name>
+            <title>And I make GET /api/user/2 api call</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.45'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I make GET /api/user/2 api call" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I make GET /api/user/2 api call" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(C:\Users\Grigor_Harutyunyan\WebstormProjects\homework_2\features\E2E_User.feature):1:1
+                	at Scenario(Validate End to End Get Single User):3:3
+                	at Step(I make GET &lt;endPoint> api call):6:5
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1637577461064' status='broken' stop='1637577461064'>
+            <name>Then I validate the search result</name>
+            <title>Then I validate the search result</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.45'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I validate the search result" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I validate the search result" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(C:\Users\Grigor_Harutyunyan\WebstormProjects\homework_2\features\E2E_User.feature):1:1
+                	at Scenario(Validate End to End Get Single User):3:3
+                	at Step(I validate the search result):7:5
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1637577461064' status='passed' stop='1637577461065'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.45'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

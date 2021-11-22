@@ -1,0 +1,107 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1637577588505' stop='1637577589716'>
+    <name>The Cypress io  Website: </name>
+    <title>The Cypress io  Website: </title>
+    <test-cases>
+        <test-case start='1637577588505' status='passed' stop='1637577588506'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.45'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1637577588506' status='passed' stop='1637577589712'>
+            <name>Given I should navigate to pricing page</name>
+            <title>Given I should navigate to pricing page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.45'/>
+            </parameters>
+            <steps>
+                <step start='1637577588506' status='passed' stop='1637577589712'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='264b9b95-80e4-45ae-af62-33c5103a5527-attachment.json' type='application/json' size='45'/>
+                    </attachments>
+                    <steps>
+                        <step start='1637577588512' status='passed' stop='1637577588518'>
+                            <name>POST /session/:sessionId/element</name>
+                            <title>POST /session/:sessionId/element</title>
+                            <attachments>
+                                <attachment title='Request' source='43a02a8c-b257-4484-8357-d242d920f011-attachment.json' type='application/json' size='66'/>
+                                <attachment title='Response' source='1ae3587a-5069-41c0-9ea9-915fa2dfdf06-attachment.json' type='application/json' size='83'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1637577588520' status='passed' stop='1637577588523'>
+                            <name>GET /session/:sessionId/element/c2e0be1c-baab-49f0-bf4c-6328ea8c4ee0/text</name>
+                            <title>GET /session/:sessionId/element/c2e0be1c-baab-49f0-bf4c-6328ea8c4ee0/text</title>
+                            <attachments>
+                                <attachment title='Response' source='e662a6f7-dd64-4e7f-9d58-10de93a4207b-attachment.json' type='application/json' size='83'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1637577588525' status='passed' stop='1637577588532'>
+                            <name>GET /session/:sessionId/element/e82408cf-efd6-4357-aa8e-3267b984058a/text</name>
+                            <title>GET /session/:sessionId/element/e82408cf-efd6-4357-aa8e-3267b984058a/text</title>
+                            <attachments>
+                                <attachment title='Response' source='93401b57-0ab3-4f8a-9c43-1c28118c35f6-attachment.json' type='application/json' size='50'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1637577589712' status='passed' stop='1637577589715'>
+            <name>And Text of pageHeader of pricing should be Cypress Dashboard Pricing</name>
+            <title>And Text of pageHeader of pricing should be Cypress Dashboard Pricing</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.45'/>
+            </parameters>
+            <steps>
+                <step start='1637577589713' status='undefined'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='a856f9c9-9c61-408e-bf64-7e36d676dccb-attachment.json' type='application/json' size='66'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1637577589715' status='passed' stop='1637577589716'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.45'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
