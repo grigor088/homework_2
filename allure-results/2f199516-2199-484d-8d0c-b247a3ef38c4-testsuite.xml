@@ -1,0 +1,167 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1637606932619' stop='1637606937168'>
+    <name>The Cypress io  Website: Chek subscribe text vor valid email</name>
+    <title>The Cypress io  Website: Chek subscribe text vor valid email</title>
+    <test-cases>
+        <test-case start='1637606932620' status='passed' stop='1637606932620'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.45'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1637606932620' status='passed' stop='1637606932660'>
+            <name>Given I should scroll into inputEmail view</name>
+            <title>Given I should scroll into inputEmail view</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.45'/>
+            </parameters>
+            <steps>
+                <step start='1637606932621' status='passed' stop='1637606932642'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='d925c0f6-0136-4397-a62c-fb01c39cc448-attachment.json' type='application/json' size='63'/>
+                        <attachment title='Response' source='b571cadc-22ee-4311-ab96-0fe608cd02dd-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1637606932645' status='passed' stop='1637606932660'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='69a2fcf2-151b-49b5-a1ef-a4da3b228ef5-attachment.json' type='application/json' size='329'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1637606932660' status='broken' stop='1637606937167'>
+            <name>Then I should input valid email newuser@mail.ru</name>
+            <title>Then I should input valid email newuser@mail.ru</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.45'/>
+            </parameters>
+            <steps>
+                <step start='1637606932661' status='passed' stop='1637606932681'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='c0bd62f1-64ee-4ddc-adf3-c7c718a2c52c-attachment.json' type='application/json' size='63'/>
+                        <attachment title='Response' source='59c4e8a6-469e-40a2-bd0e-2bc936993c52-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1637606932685' status='passed' stop='1637606932735'>
+                    <name>POST /session/:sessionId/element/c4fef982-f93f-41ee-bf2a-70e285ed8e04/clear</name>
+                    <title>POST /session/:sessionId/element/c4fef982-f93f-41ee-bf2a-70e285ed8e04/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1637606932737' status='passed' stop='1637606932850'>
+                    <name>POST /session/:sessionId/element/c4fef982-f93f-41ee-bf2a-70e285ed8e04/value</name>
+                    <title>POST /session/:sessionId/element/c4fef982-f93f-41ee-bf2a-70e285ed8e04/value</title>
+                    <attachments>
+                        <attachment title='Request' source='08422992-8035-4c32-9a81-cb280a42c6a5-attachment.json' type='application/json' size='31'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1637606932851' status='passed' stop='1637606932875'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='0e08685e-7a09-4042-b7d4-83873062c4ca-attachment.json' type='application/json' size='71'/>
+                        <attachment title='Response' source='349036e0-c5f9-4753-9c26-badfb27b2ced-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1637606932879' status='broken' stop='1637606937167'>
+                    <name>POST /session/:sessionId/element/9170ddea-36c4-40c7-868e-8c12efb77183/click</name>
+                    <title>POST /session/:sessionId/element/9170ddea-36c4-40c7-868e-8c12efb77183/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>element click intercepted: Element &lt;button type="submit" class="styled__Submit-sc-10l91w3-12 ...__StyledSubmit-sc-1hdnlrs-5 irlrdX">Subscribe&lt;/button> is not clickable at point (1256, 622). Other element would receive the click: &lt;div class="ot-sdk-row">...&lt;/div></message>
+                <stack-trace>element click intercepted: Element &lt;button type="submit" class="styled__Submit-sc-10l91w3-12 ...__StyledSubmit-sc-1hdnlrs-5 irlrdX">Subscribe&lt;/button> is not clickable at point (1256, 622). Other element would receive the click: &lt;div class="ot-sdk-row">...&lt;/div>
+                  (Session info: chrome=96.0.4664.45)
+                Backtrace:
+                	Ordinal0 [0x00673AB3+2505395]
+                	Ordinal0 [0x0060AE41+2076225]
+                	Ordinal0 [0x00512498+1057944]
+                	Ordinal0 [0x00542C09+1256457]
+                	Ordinal0 [0x00540F48+1249096]
+                	Ordinal0 [0x0053ED0D+1240333]
+                	Ordinal0 [0x0053DB68+1235816]
+                	Ordinal0 [0x00533857+1194071]
+                	Ordinal0 [0x005559F3+1333747]
+                	Ordinal0 [0x00533676+1193590]
+                	Ordinal0 [0x00555ADA+1333978]
+                	Ordinal0 [0x00565168+1397096]
+                	Ordinal0 [0x005558BB+1333435]
+                	Ordinal0 [0x005323E4+1188836]
+                	Ordinal0 [0x0053323F+1192511]
+                	GetHandleVerifier [0x007FCB36+1554566]
+                	GetHandleVerifier [0x008A4A0C+2242396]
+                	GetHandleVerifier [0x00700E0B+523099]
+                	GetHandleVerifier [0x006FFEB0+519168]
+                	Ordinal0 [0x006102FD+2097917]
+                	Ordinal0 [0x00614388+2114440]
+                	Ordinal0 [0x006144C2+2114754]
+                	Ordinal0 [0x0061E041+2154561]
+                	BaseThreadInitThunk [0x76C6FA29+25]
+                	RtlGetAppContainerNamedObjectPath [0x77C87A9E+286]
+                	RtlGetAppContainerNamedObjectPath [0x77C87A6E+238]
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1637606937168' status='pending' stop='1637606937168'>
+            <name>And I should check subscribing Thanks for submitting the form.</name>
+            <title>And I should check subscribing Thanks for submitting the form.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.45'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1637606937168' status='passed' stop='1637606937168'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.45'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

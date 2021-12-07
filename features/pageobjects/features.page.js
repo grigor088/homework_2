@@ -1,16 +1,14 @@
-const Page = require('./page');
+const SupportPage = require("./supportPage");
 
-module.exports = class FeaturesPage extends Page {
+class FeaturesPage extends SupportPage {
+    constructor() {
+        super();
+        this.path = 'features'
+    }
 
     async open() {
-        return super.open('features');
+        return super.open(this.path);
     }
-
-    get pageHeader() {
-        return $('[data-cy="tag-line"]')
-    }
-
-
 }
 
-
+module.exports = FeaturesPage

@@ -1,42 +1,41 @@
 const { Given, When, Then } = require('@wdio/cucumber-framework');
+const SupportPage = require("../pageobjects/supportPage");
+const supportPage = new SupportPage()
 
-const FeaturesPage = require('../pageobjects/features.page');
-const DashboardPage = require('../pageobjects/dashboard.page');
-const PricingPage = require('../pageobjects/pricing.page')
-const Page = require('../pageobjects/page')
+const pages = require("../../support/constants")
 
-const pages = {
-    features:  new FeaturesPage(),
-    dashboard : new DashboardPage(),
-    pricing : new PricingPage(),
-    page : new Page()
-}
+Given(/^I should navigate to (.*) page$/, async (page) => {
+    //await pages[page].open('');
+    await browser.url('https://cypress.io/')
+});
 
-Given(/^I should scroll into email search view$/, async ()=>{
-    await pages["page"].open('')
-    await pages["page"].inputEmail.scrollIntoView({block:"start"})
-    await browser.pause(3000)
+Then(/^I should scroll into (.*) view$/, async (elem)=>{
+    const element = supportPage[elem] //not working
+    await element.scrollIntoView({block:"nearest"})
 })
 
-Then(/^I input invalid "(.*)"$/, async (mail)=>{
-    await pages['page'].inputEmail.setValue(mail)
-    await $('//*[@id="subscribe-form"]/button').click()
-    await $('//*[@id="subscribe-form"]/button').click({x:150})
-    await browser.pause(1000)
+Then(/^I input invalid email "(.*)"$/, async (mail)=>{
+    await supportPage.inputEmail.setValue(mail)
+})
+Then(/^I will click on (.*) element$/, async (elem)=>{
+    await supportPage[elem].click()
+    await supportPage[elem].click({x:140})
 })
 
 When(/^I will check (.*) which depends on error message when i click in subscribe button with invalid email$/, async(text)=>{
-    const errorMessageElement = await pages["page"].errorMessage
-    await expect(errorMessageElement).toHaveTextContaining(text)
+    const errorMessageElement = supportPage.errorMessage
+    expect(errorMessageElement).toHaveTextContaining(text)
 })
 
-Given (/^I should input valid (.*)$/, async (email)=>{
-    await pages['page'].inputEmail.setValue(email)
-    await $('//*[@id="subscribe-form"]/button').click()
+Given (/^I should input valid email (.*)$/, async (email)=>{
+    await supportPage.inputEmail.setValue(email)
 })
 
 Then (/^I should check subscribing (.*)$/, async (text)=>{
-    const subscribeMessageElement = await pages["page"].subscribeMessage
-    await expect(subscribeMessageElement).toHaveTextContaining(text)
+    const subscribeMessageElement = supportPage.subscribeMessage
+    expect(subscribeMessageElement).toHaveTextContaining(text)
+})
+
+Then(/^I should reload page for input new email$/, async ()=>{
     await browser.refresh()
 })

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="The Cypress io Website" timestamp="2021-11-23T19:50:55" time="0.033" tests="2" failures="0" errors="0" skipped="2">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="featureName" value="The Cypress io  Website"/>
+      <property name="capabilities" value="chrome.96_0_4664_45.windows"/>
+      <property name="featureFile" value=".\features\new.feature"/>
+    </properties>
+    <testcase classname="CucumberJUnitReport-chrome.96_0_4664_45.windows.The Cypress io Website" name="Check error message text for invalid email" time="0.013">
+      <skipped/>
+      <system-out><![CDATA[
+⚠️ Given I should navigate to <page> page
+⚠️ Then I should scroll into inputEmail view
+⚠️ Then I input invalid email "assss"
+⚠️ Then I will click on <subscribeForm> element
+⚠️ And I will check Email must be formatted correctly. which depends on error message when i click in subscribe button with invalid email
+
+]]></system-out>
+    </testcase>
+    <testcase classname="CucumberJUnitReport-chrome.96_0_4664_45.windows.The Cypress io Website" name="Check error message text for invalid email" time="0.005">
+      <skipped/>
+      <system-out><![CDATA[
+⚠️ Given I should navigate to <page> page
+⚠️ Then I should scroll into inputEmail view
+⚠️ Then I input invalid email ""
+⚠️ Then I will click on <subscribeForm> element
+⚠️ And I will check Please complete this required field. which depends on error message when i click in subscribe button with invalid email
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

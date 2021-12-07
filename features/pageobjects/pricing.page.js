@@ -1,13 +1,15 @@
-const Page = require('./page');
+const SupportPage = require("./supportPage");
 
-module.exports = class PricingPage extends Page{
-
-    async open(path) {
-        return super.open('pricing');
+class PricingPage extends SupportPage {
+    constructor() {
+        super();
+        this.path = 'pricing'
     }
 
-    get pageHeader(){
-        return   $('[data-cy="tag-line"]')
+    async open() {
+        return super.open(this.path);
     }
 
 }
+
+module.exports = PricingPage

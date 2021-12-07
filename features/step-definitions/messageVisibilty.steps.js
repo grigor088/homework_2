@@ -1,16 +1,16 @@
 const {Given, Then} = require("@wdio/cucumber-framework");
-const Page = require('../pageobjects/page')
-const page = new Page()
+const SupportPage = require("../pageobjects/supportPage");
+const supportPage = new SupportPage()
+const pages = require('../../support/constants')
 
 Given(/^I click in (.*) element$/, async (elem)=>{
-    await page.open('')
-    const actualElem = await page[elem]
-    await actualElem.click()
 
+    await pages['page'].open('')
+    const actualElem = supportPage[elem]
+    await actualElem.click()
 })
 
-Then(/^I will check visibility of (.*) which contain message (.*)$/, async (elem, msg)=>{
-    const actualElem = await page[elem]
+Then(/^I will check visibility of (.*) which contain message (.*)$/, async (element, msg)=>{
+    const actualElem =  supportPage[element]
     expect(actualElem).toHaveTextContaining(msg)
-    await browser.pause(1500)
 })

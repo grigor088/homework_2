@@ -1,0 +1,78 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1637652891155' stop='1637652891830'>
+    <name>The Cypress io  Website: </name>
+    <title>The Cypress io  Website: </title>
+    <test-cases>
+        <test-case start='1637652891155' status='passed' stop='1637652891155'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.45'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1637652891155' status='passed' stop='1637652891830'>
+            <name>And I should reload page for input new email</name>
+            <title>And I should reload page for input new email</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.45'/>
+            </parameters>
+            <steps>
+                <step start='1637652891155' status='passed' stop='1637652891162'>
+                    <name>POST /session/:sessionId/refresh</name>
+                    <title>POST /session/:sessionId/refresh</title>
+                    <attachments>
+                        <attachment title='Response' source='ea02660d-75eb-4c0e-9c61-f12866379a1f-attachment.json' type='application/json' size='27'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1637652891401' status='undefined'>
+                    <name>GET /session/:sessionId/element/84725199-cd16-4e52-96a2-3efad856c4c0/text</name>
+                    <title>GET /session/:sessionId/element/84725199-cd16-4e52-96a2-3efad856c4c0/text</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1637652891543' status='undefined'>
+                            <name>GET /session/:sessionId/element/a429dda1-646b-42b2-a47f-4c682580bb10/text</name>
+                            <title>GET /session/:sessionId/element/a429dda1-646b-42b2-a47f-4c682580bb10/text</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1637652891651' status='passed' stop='1637652891830'>
+                                    <name>GET /session/:sessionId/element/a429dda1-646b-42b2-a47f-4c682580bb10/text</name>
+                                    <title>GET /session/:sessionId/element/a429dda1-646b-42b2-a47f-4c682580bb10/text</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1637652891830' status='passed' stop='1637652891830'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.45'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,13 +1,14 @@
-const Page = require('./page');
+const SupportPage = require("./supportPage");
 
-module.exports =  class  DashboardPage extends Page{
-
-    async open(path) {
-        return super.open('dashboard');
+class DashboardPage extends SupportPage {
+    constructor() {
+        super();
+        this.path = 'dashboard'
     }
 
-    get pageHeader(){
-        return   $('[data-cy="tag-line"]')
+    async open() {
+        return super.open(this.path);
     }
-
 }
+
+module.exports = DashboardPage
